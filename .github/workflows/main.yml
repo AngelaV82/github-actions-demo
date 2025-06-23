@@ -10,4 +10,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: Print een bericht
-      run: echo "Hallo GitHub Actions!"
+      - run: echo "Hallo GitHub Actions!"
