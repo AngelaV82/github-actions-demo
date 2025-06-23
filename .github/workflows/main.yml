@@ -9,5 +9,5 @@ jobs:
   hello:
     runs-on: ubuntu-latest
     steps:
-      -name: Print een bericht
-      -run: echo "Hallo GitHub Actions!"
+      - name: Print een bericht
+      run: echo "Hallo GitHub Actions!"
